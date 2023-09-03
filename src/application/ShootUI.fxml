@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Parent" prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: DARKGRAY;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Shoot">
+   <children>
+      <Label fx:id="scorelabel" layoutX="14.0" layoutY="14.0" text="Label">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <Rectangle fx:id="player" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" focusTraversable="true" height="15.0" onKeyPressed="#KeyPressed" onKeyReleased="#KeyReleased" stroke="BLACK" strokeType="INSIDE" width="15.0" x="243.0" y="243.0" />
+      <ImageView layoutX="204.0" layoutY="5.0" onMouseClicked="#gamestart">
+         <image>
+            <Image url="@flatDark41.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="54.0" layoutX="446.0" layoutY="5.0" onMouseClicked="#mainscreen">
+         <image>
+            <Image url="@flatLight22.png" />
+         </image>
+      </ImageView>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

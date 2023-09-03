@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainScreen">
+   <children>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutY="250.0" onMouseClicked="#ClickerGame">
+         <image>
+            <Image url="@그림1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="250.0" layoutY="250.0" onMouseClicked="#ReactionTest">
+         <image>
+            <Image url="@그림2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="250.0" onMouseClicked="#shoot">
+         <image>
+            <Image url="@shoot.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" onMouseClicked="#Pingpong">
+         <image>
+            <Image url="@그림3.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

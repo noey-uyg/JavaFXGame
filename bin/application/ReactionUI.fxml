@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ReactionRateTest">
+   <children>
+      <Canvas fx:id="canvas" height="500.0" onMouseClicked="#ClickCanvas" width="500.0" />
+      <Text fx:id="outputbig" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="outputsmall" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="62.0" fitWidth="62.0" layoutX="438.0" onMouseClicked="#MainScreen">
+         <image>
+            <Image url="@flatLight22.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
